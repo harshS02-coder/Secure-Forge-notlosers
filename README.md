@@ -7,7 +7,7 @@ Secure-Forge is a comprehensive cybersecurity platform that leverages Generative
 
 ---
 
-## Cipher
+## Secure-Forge
 
 ```
 Secure-Forge Platform
