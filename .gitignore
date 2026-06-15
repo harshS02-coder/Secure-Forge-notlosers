@@ -1,0 +1,57 @@
+# Android build artifacts
+android-app/build/
+android-app/.gradle/
+android-app/local.properties
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Android generated files (keep source, ignore generated)
+android-app/app/build/
+
+# Node / Web app
+app/node_modules/
+app/dist/
+app/.env
+app/.env.local
+app/.env.*.local
+
+# Database
+*.sqlite
+*.db
+app/db/migrations/meta/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+
+# Kotlin / Java
+*.class
+*.jar (except intentional libs)
+
+# Gradle wrapper (optional — some teams commit this)
+# android-app/gradlew
+# android-app/gradle/
+
+# Coverage / test artifacts
+coverage/
+.nyc_output/
+
+# Temp
+*.tmp
+*.temp
